@@ -1,0 +1,26 @@
+h1 {
+    color: blueviolet;
+    
+}  
+body {
+    color: white;
+    background-image: url(./images/tommy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: lightslategray;
+    cursor: crosshair;
+}
+p::before{
+content: "\2604";
+color: brown;
+}
+ul :hover{
+    background-color: rgba(79, 118, 163, 0.966);
+}
+a{
+    color: currentColor;
+}
+img:hover {
+    transform: scale(1.5);
+  }
+/* background-color: lightslategray; */
