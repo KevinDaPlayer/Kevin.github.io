@@ -1,7 +1,14 @@
+*::selection {
+    background-color: darkorange;
+}
+
 h1 {
     color: blueviolet;
     
 }  
+h1.heading::first-letter{
+    font-size: 3rem;
+}
 body {
     color: white;
     background-image: url(./images/tommy.jpg);

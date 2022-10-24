@@ -9,6 +9,18 @@
     <base target="_blank">
     <link rel="shortcut icon" href="./images/icon.png">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    </script>
+    <script>
+        $(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeIn();
+    $("#div2").fadeIn("slow");
+    $("#div3").fadeIn(3000);
+  });
+});
+    </script>
+
     <title>Kevin's Web</title>
 </head>
 <body>
@@ -51,4 +63,9 @@
     <h1>picture</h1>
      <img width="200" height="100" src="./images/intel.png" alt="intel">
     <img width="200" height="100" src="./images/nvidia-logo.png" alt="nvidia"> 
+    <button>點我有驚喜</button>
+    <div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+    <div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+    <div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+</body>
 </html>
